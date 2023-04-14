@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>M S CALCULATOR</title>
+</head>
+<body style="background-color: #CBE4DE;"> 
+    <h1> M S CALCULATOR</h1>
+    <div class="container">
+        <form action="">
+            <input type="text" id="screen">
+            <br>
+            <input class="button allclear" type="button" value="AC" onclick="clearscreen()"style="color: rgb(1, 30, 56)";>
+            <input class="button operator" type="button" value="%" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <input class="button operator" type="button" value="**2" onclick="buttonclick(value)" style="color: rgb(1, 30, 56)";>
+            <input class="button operator" type="button" value="/" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <br>
+            <input class="button number" type="button" value="7" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <input class="button number" type="button" value="8" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <input class="button number" type="button" value="9" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <input class="button operator" type="button" value="*" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <br>
+            <input class="button number" type="button" value="4" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <input class="button number" type="button" value="5" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <input class="button number" type="button" value="6" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <input class="button operator" type="button" value="-" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <br>
+            <input class="button number" type="button" value="1" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <input class="button number" type="button" value="2" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <input class="button number" type="button" value="3" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <input class="button operator" type="button" value="+" onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <br>
+            <input class="button number" type="button" value="0" onclick="buttonclick(value)" style="color: rgb(1, 30, 56)";>
+            <input class="button operator" type="button" value="." onclick="buttonclick(value)"style="color: rgb(1, 30, 56)";>
+            <input class="result" type="button" value="=" onclick="findresult()"style="color: rgb(1, 30, 56)";>
+            <br>
+            <p>CREATED BY: YADHUKRISHNA M S</p>
+        </form>
+    </div>
+    <script src="./calc.js"></script>
+</body>
+</html>
